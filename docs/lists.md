@@ -79,7 +79,7 @@ Concatenate arbitrary number of lists into one.
 concat $myList ( list 6 7 ) ( list 8 )
 ```
 
-The above would produce `[1 2 3 4 5 6 7 8]`. `$myList` would remain unaltered.
+The above would produce `[6 7 8]`. `$myList` would remain unaltered.
 
 ## prependList, mustPrependList
 
