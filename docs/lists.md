@@ -81,6 +81,16 @@ concat $myList ( list 6 7 ) ( list 8 )
 
 The above would produce `[1 2 3 4 5 6 7 8]`. `$myList` would remain unaltered.
 
+## prependList, mustPrependList
+
+Prepend arbitrary number of lists into one.
+
+```
+prependList $myList ( list 6 7 ) ( list 8 ) ( list 9 10 )
+```
+
+The above would produce `[6 7 8 9 10]`. `$myList` would remain unaltered.
+
 ## reverse, mustReverse
 
 Produce a new list with the reversed elements of the given list.

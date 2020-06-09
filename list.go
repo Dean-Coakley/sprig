@@ -417,3 +417,10 @@ func concat(lists ...interface{}) interface{} {
 	}
 	return res
 }
+
+func prependList(list interface{}, lists ...interface{}) interface{} {
+	var res []interface{}
+	res = concat(lists)
+	res = interface{list, res}
+	return res
+}
